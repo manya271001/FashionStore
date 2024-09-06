@@ -30,8 +30,8 @@
 }
 
 .productDetail .productImage img {
-  width: 400px;
-  height: 500px;
+  width: 500px;
+  height: 530px;
 }
 
 .productDetail .productImage .smallImage {
@@ -113,6 +113,120 @@
 
 .productDetail .size .midium a:hover {
   background-color: black;
-  color: wheat;
+  color: white;
+}
+
+.productDetail h4 {
+  margin-top: 50px;
+}
+
+.productDetail .add_to_bag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.productDetail .add_to_bag a {
+  margin-left: 20px;
+  padding: 10px 143px;
+  background-color: grey;
+  color: black;
+  text-decoration: none;
+}
+
+.productDetail .add_to_bag a:hover {
+  background-color: black;
+  color: white;
+}
+
+.productDetail .add_to_bag .quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productDetail .add_to_bag .quantity .quantity-button {
+  width: 30px;
+  height: 33px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.productDetail .add_to_bag .quantity .quantity-button:focus {
+  outline: none;
+}
+
+.productDetail .add_to_bag .quantity .quantity-input {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+}
+
+.productDetail .buyNow {
+  margin-top: 30px;
+  margin-left: -30px;
+}
+
+.productDetail .buyNow a {
+  margin-left: 20px;
+  padding: 10px 220px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.productDetail .buyNow a:hover {
+  background-color: #a3a2a2;
+}
+
+.productDetail .share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  gap: 50px;
+}
+
+.productDetail .share .shareTo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.productDetail .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.productDetail .truck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
 }
 /*# sourceMappingURL=add_to_cart.css.map */

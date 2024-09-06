@@ -19,8 +19,8 @@ $common-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
        
         
         img{
-            width: 400px;
-            height: 500px;
+            width: 500px;
+            height: 530px;
         }
         .smallImage{
             display: flex;
@@ -85,14 +85,100 @@ $common-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             border: 1px solid black;
             &:hover{
                 background-color: black;
-                color: wheat;
+                color: white;
             }
+        }
+    }
             }
+            h4{
+                margin-top: 50px;
+            }
+            .add_to_bag{
+                display: flex;
+                a{
+                    margin-left: 20px;
+                    padding: 10px 143px;
+                    background-color: grey;
+                    color: black;
+                    text-decoration: none;
+                     &:hover{
+                background-color: black;
+                color: white;
+            }
+                }
+            .quantity {
+            display: flex;
+            align-items: center;
            
+
+        .quantity-button {
+             width: 30px;
+            height: 33px;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            font-size: 18px;
+            text-align: center;
+            line-height: 28px;
            
+        }       
+
+        .quantity-button:focus {
+        outline: none;
+        }
+
+    .quantity-input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+        }
+    }
+    }
+    .buyNow{
+        margin-top: 30px;
+        margin-left: -30px;
+        
+        a{
+            margin-left: 20px;
+            padding: 10px 220px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            &:hover{
+                background-color: rgb(163, 162, 162);
+            }
             
-            }
-            }
-          }
+        }
+    }
+    .share{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        gap: 50px;
+        .shareTo{
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+       
+}
+ .clock{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+           
+        }
+    .truck{
+        display: flex;
+            align-items: center;
+            gap: 30px;
+    }    
+
+}
+          
           
     

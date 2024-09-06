@@ -1,0 +1,53 @@
+$common-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body{
+    background-color: rgb(240, 236, 236);
+}
+.login{
+    padding: 70px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 13px;
+    background-color: white;
+    height: 350px;
+    width: 450px;
+    margin-left: 300px;
+    margin-top: 60px;
+    a {
+        text-decoration: none;
+        
+    h1{
+         font-size: 60px;
+                color: black;
+                font-family: $common-font;
+                letter-spacing: 2px;
+                font-weight: lighter;
+                text-decoration: none;
+    }
+}
+    input{
+        border: 1px solid beige;
+        border-radius: 13px;
+        background-color: transparent;
+        margin-left: 20px;
+    }
+    .button{
+        a{
+                margin-left: 20px;
+                    padding: 10px;
+                    background-color: rgb(177, 175, 175);
+                    color: black;
+                    text-decoration: none;
+                    border-radius: 12px;
+                     &:hover{
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+    
+
+}

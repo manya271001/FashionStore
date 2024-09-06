@@ -1,0 +1,63 @@
+body {
+  background-color: #f0ecec;
+}
+
+.login {
+  padding: 70px;
+  padding-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 13px;
+  background-color: white;
+  height: 350px;
+  width: 450px;
+  margin-left: 300px;
+  margin-top: 60px;
+}
+
+.login a {
+  text-decoration: none;
+}
+
+.login a h1 {
+  font-size: 60px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.login input {
+  border: 1px solid beige;
+  border-radius: 13px;
+  background-color: transparent;
+  margin-left: 20px;
+}
+
+.login .button a {
+  margin-left: 20px;
+  padding: 10px;
+  background-color: #b1afaf;
+  color: black;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.login .button a:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=login.css.map */
