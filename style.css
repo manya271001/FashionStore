@@ -439,3 +439,44 @@ footer {
     width: 100%;
    }
 } 
+@media screen and (max-width: 426px){
+ .hero{
+    padding-top: 100px;
+    video{
+    width: 1200px;
+    }
+   }
+   .weLove{
+    padding: 100px 390px;
+    width: 100%;
+   }
+   .weLove .card-section{
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 90px;
+    
+   }
+   .weLove .card-section .card{
+    padding: 0px;
+   }
+   .Shop_by_category .card-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+      padding: 100px 220px;
+    width: 100%;
+    margin-left: 150px;
+   }
+   .footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 100px 400px;
+    width: 100%;
+   }
+   footer{
+     padding: 100px 400px;
+    width: 100%;
+   }
+}
