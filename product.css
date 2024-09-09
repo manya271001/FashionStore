@@ -156,4 +156,30 @@
 .product .card a:hover {
   text-decoration: underline;
 }
+@media screen and (max-width: 768px) {
+  .product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+    
+  }
+  .product .card{
+    height: 500px;
+    width: 400px;
+  }
+  
+}
+@media screen and (max-width: 426px) {
+  .product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+    
+  }
+  .product .card{
+    height: 500px;
+    width: 400px;
+  }
+  
+}
 /*# sourceMappingURL=product.css.map */
