@@ -229,31 +229,4 @@
           align-items: center;
   gap: 30px;
 }
-@media screen and (max-width: 768px){
-  .productDetail{
-    display: flex;
-    flex-direction: column;
-  }
-  .productDetail .about{
-    margin-left: 170px;
-  }
-}
-@media screen and (max-width: 426px){
-  .productDetail{
-    display: flex;
-    flex-direction: column;
-  }
-  .productDetail .productImage{
-    margin-left: 40px;
-    padding-left:550px ; 
-    padding-top: 130px;
-  }
-  .productDetail .about{
-    margin-left: 170px;
-    padding-left: 500px; 
-  }
-  .productDetail .about a{
-    padding: 20px;
-  }
-}
 /*# sourceMappingURL=add_to_cart.css.map */

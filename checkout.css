@@ -331,44 +331,4 @@
   gap: 10px;
   margin-left: 20px;
 }
-@media screen and (max-width:768px){
-  .header{
-    border-bottom: 1px solid #d5d1d1;
-    width: 760px;
-  }
-  .checkout{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
- 
-  
-}
-@media screen and (max-width:426px){
-   .header{
-    border-bottom: 1px solid #d5d1d1;
-    width: 700px;
-  }
-  .checkout{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-   .checkout .information{
-    padding-left: 40px;
-  }
-   .checkout .information .checkbox{
-    justify-content: center;
-    align-items: center;
-   }
-    
-  .checkout .information .payNow a{
-    padding: 10px 60px;
-  }
-  .checkout .item{
-    padding: 40px 50px;
-    width: 700px;
-  }
-  
-}
 /*# sourceMappingURL=checkout.css.map */

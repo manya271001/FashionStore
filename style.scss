@@ -9,59 +9,12 @@ $common-background-color:rgb(233, 230, 224);
 
 // Navbar Section
 .header{
-    display: flex;
-    margin-top: -90px;
-    margin-bottom: 0px;
-    height: 60px;
-    background-color: white;
-    position: fixed;
-    width: 100%;
-    z-index: 20;
-    
-    
     .navbar{
-        display: flex;
-        
-        a h1{
-              font-size: 30px;
-                color: black;
-                font-family: $common-font;
-                letter-spacing: 2px;
-                font-weight: lighter;
-                
-
-            }
-    nav ul {
-        display: flex ;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-        list-style: none;
-        // background-color: white;
-        width: 100%;
-      
-        
-        #sale{
-            margin-right: 30px;
+        nav{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
         }
-        #search{
-            margin-left: 165px;
-        }
-        
-        li a{
-            text-decoration: none;
-            margin: 0px 10px;
-            color: black; 
-            font-family: $common-font;
-            h1{
-         @include heading1();
-            }
-            
-        }
-   
     }
-    }
-    
 }
 // Hero Section
 .hero{
