@@ -363,8 +363,18 @@ footer {
     display: block;
     
 }
+ #click{
+    display: none;
+ }
+ label{
+    display: none;
+    cursor: pointer;
+    margin-left: 0px;
+    }
+
 @media screen and (max-width: 768px) {
     
+
     .hero{
     padding-top: 100px;
     video{
@@ -448,7 +458,7 @@ footer {
  .hero{
     padding-top: 100px;
     video{
-    width: 1200px;
+    width: 1300px;
     }
    }
    .weLove{
@@ -477,11 +487,11 @@ footer {
    .footer{
     display: grid;
     grid-template-columns: 1fr;
-    padding: 100px 420px;
-    width: 100%;
+    padding: 100px 450px;
+    
    }
    footer{
-     padding: 100px 420px;
+     padding: 100px 450px;
     width: 100%;
    }
 }
